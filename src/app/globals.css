@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "irsans";
+  src: url("/fonts/irsans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,5 +25,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "irsans", sans-serif;
+  direction: rtl;
+  text-align:  right;
 }
